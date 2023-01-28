@@ -33,8 +33,8 @@ const ViewUser = () => {
                 <ListGroup.Item>Phone: {user.phone}</ListGroup.Item>
                 <ListGroup.Item>Username: {user.username}</ListGroup.Item>
                 <ListGroup.Item>Website: {user.website}</ListGroup.Item>
-                <ListGroup.Item>Address: {address.street} | {address.city} | {address.suite} | {address.zipcode} </ListGroup.Item>
-                <ListGroup.Item>Company name: {company.name} | {company.catchPhrase} | {company.bs} </ListGroup.Item>
+//                 <ListGroup.Item>Address: {address.street} | {address.city} | {address.suite} | {address.zipcode} </ListGroup.Item>
+//                 <ListGroup.Item>Company name: {company.name} | {company.catchPhrase} | {company.bs} </ListGroup.Item>
             </ListGroup>
         </div>
     )
