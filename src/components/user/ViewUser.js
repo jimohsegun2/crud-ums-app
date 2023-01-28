@@ -19,8 +19,8 @@ const ViewUser = () => {
         const response = await axios.get(`http://localhost:5000/users/${userId}`);
         console.log(response.data);
         setUser(response.data);
-        setAddress(response.data.address)
-        setCompany(response.data.company)
+//         setAddress(response.data.address)
+//         setCompany(response.data.company)
     }
 
     return (
